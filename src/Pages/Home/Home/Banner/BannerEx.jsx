@@ -5,7 +5,13 @@ const BannerEx = () => {
   return (
     <div className="bg-gray-900 h-[313px] flex justify-between overflow-hidden">
       <div>
-        <h1 className="flex items-center h-full px-36 justify-start text-start z-50 text-gray-400">My objective is to contribute my expertise in exceptional user experiences and visually appealing interfaces to a dynamic and innovative team. Seeking a challenging role where I can continually grow as a web developer and contribute to the projects in a competitive and collaborative environment.</h1>
+        <h1 className="flex items-center h-full px-36 justify-start text-start z-50 text-gray-400">
+          Information Technology (IT) refers to the use of computers, software,
+          networks, and other technology tools to store, process, transmit, and
+          retrieve information. IT plays a crucial role in various aspects of
+          modern life, including business, education, communication,
+          entertainment, and more.
+        </h1>
       </div>
       <div>
         <img className="absolute" src={img} alt="" />

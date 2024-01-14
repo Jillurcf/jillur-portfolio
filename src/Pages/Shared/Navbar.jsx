@@ -10,9 +10,9 @@ const Navbar = () => {
           to="/"
           style={({ isActive, isPending, isTransitioning }) => {
             return {
-              background: isActive ? "blue" : "",
+              background: isActive ? "gray" : "",
               fontWeight: isActive ? "bold" : "",
-              color: isPending ? "red" : "gray",
+              color: isActive ? "black" : "gray",
               viewTransitionName: isTransitioning ? "slide" : "",
             };
           }}
@@ -25,9 +25,9 @@ const Navbar = () => {
           to="/about"
           style={({ isActive, isPending, isTransitioning }) => {
             return {
-              background: isActive ? "blue" : "",
+              background: isActive ? "gray" : "",
               fontWeight: isActive ? "bold" : "",
-              color: isPending ? "red" : "gray",
+              color: isActive ? "black" : "gray",
               viewTransitionName: isTransitioning ? "slide" : "",
             };
           }}
@@ -40,9 +40,9 @@ const Navbar = () => {
           to="/projects"
           style={({ isActive, isPending, isTransitioning }) => {
             return {
-              background: isActive ? "blue" : "",
+              background: isActive ? "gray" : "",
               fontWeight: isActive ? "bold" : "",
-              color: isPending ? "red" : "gray",
+              color: isActive ? "black" : "gray",
               viewTransitionName: isTransitioning ? "slide" : "",
             };
           }}
@@ -55,9 +55,9 @@ const Navbar = () => {
           to="/contacts"
           style={({ isActive, isPending, isTransitioning }) => {
             return {
-              background: isActive ? "blue" : "",
+              background: isActive ? "gray" : "",
               fontWeight: isActive ? "bold" : "",
-              color: isPending ? "red" : "gray",
+              color: isActive ? "black" : "gray",
               viewTransitionName: isTransitioning ? "slide" : "",
             };
           }}
@@ -97,10 +97,10 @@ const Navbar = () => {
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">
-            <p className="hidden md:block">jrtushar@gmail.com</p>
+            <p className="hidden text-gray-500 md:block">jrtushar@gmail.com</p>
             {/* <img className="w-[50px] hidden md:block" src={roundimg} alt="" /> */}
           </a>
-          <h1 className="font-bold hidden md:block">+8801643989705</h1>
+          <h1 className="font-bold hidden md:block text-gray-500">+8801643989705</h1>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>

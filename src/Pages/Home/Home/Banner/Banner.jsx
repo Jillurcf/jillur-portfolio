@@ -1,7 +1,7 @@
 // import { motion } from "framer-motion";
 import img from "../../../../assets/profile.png";
-// import img1 from "../../../../assets/profile-transparent.png";
-import resume from "../../../../assets/Jillur-lataset-resume.pdf";
+// import img1 from "../../../../assets/profile-transparent1.png";
+import resume from "../../../../assets/Jillur-resume.pdf";
 
 import blackBackground from "../../../../assets/Designer/developer/Rectangle 67.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -17,12 +17,12 @@ const Banner = () => {
             Jillur Rahman
           </h1>
           <p>Frontend developer, react.js</p>
-          <div className=" flex">
+          <div className=" flex py-2">
             <a
               target="_blank"
               rel="noopener"
               href="https://www.linkedin.com/in/jillur-rahman-tushar"
-              className="md:mr-4 text-xl text-blue-600"
+              className="md:mr-4 text-xl text-black"
             >
               <FaLinkedin></FaLinkedin>
             </a>
@@ -30,7 +30,7 @@ const Banner = () => {
               target="_blank"
               rel="noopener"
               href="https://github.com/Jillurcf"
-              className="md:mr-12 text-xl text-blue-600"
+              className="md:mr-12 text-xl text-black"
             >
               <FaGithub></FaGithub>
             </a>
