@@ -1,7 +1,7 @@
 // import { motion } from "framer-motion";
 import img from "../../../../assets/profile.png";
 // import img1 from "../../../../assets/profile-transparent1.png";
-import resume from "../../../../assets/Jillur-resume.pdf";
+import resume from "../../../../assets/Jillur-resume1.pdf";
 
 import blackBackground from "../../../../assets/Designer/developer/Rectangle 67.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
