@@ -6,7 +6,7 @@ import development from "../../../../assets/development.png";
 const About = () => {
   const { scrollYProgress } = useScroll();
   return (
-    <div className="bg-gray-300 py-24">
+    <div className="bg-gray-300 py-24 px-8">
       <div className="border border-x-8 border-y-8 border-black w-3/12 mx-auto">
         <h1 className=" text-center p-6 text-xl text-black font-bold">
           ABOUT ME

@@ -15,14 +15,14 @@ const Education = () => {
  }, [scrollYProgress, controls]);
 
   return (
-    <div className="mt-12">
+    <div className="">
       <motion.div
           initial={{ opacity: 0 }}
           animate={controls}
           transition={{ duration: 10 }}
           whileInView={{opacity: 1}}
       >
-        <div className="md:flex gap-8">
+        <div className="md:flex gap-8 bg-gray-500 px-12">
           <div>
             
 

@@ -16,10 +16,10 @@ const Contact = () => {
   };
   return (
     <div>
-      <div className="hero min-h-screen bg-pink-400">
+      <div className="hero min-h-screen bg-gray-400">
         <div className="hero-content">
           
-          <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-pink-400">
+          <div className="card shrink-0 w-full max-w-xs shadow-2xl bg-gray-400">
             <form className="card-body" ref={form} onSubmit={sendEmail}>
               <div className="form-control">
                 <label className="label">
@@ -54,12 +54,12 @@ const Contact = () => {
                   type="text"
                   name="message"
                   placeholder="Say something"
-                  className="input input-bordered"
+                  className="input input-bordered h-48"
                   required
                 />
                
               </div>
-              <div className="form-control mt-6">
+              <div className="form-control mt-6 btn rounded-lg">
               <input type="submit" value="Send" />
                 {/* <button className="btn btn-primary">Submit</button> */}
               </div>
