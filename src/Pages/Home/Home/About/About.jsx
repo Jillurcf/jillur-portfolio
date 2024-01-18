@@ -32,7 +32,7 @@ const About = () => {
           <div className="flex">
             <img src={development} alt="" />
             <div>
-            <p className="text-xl font-bold">DEVELOPMENT</p>
+              <p className="text-xl font-bold">DEVELOPMENT</p>
             </div>
           </div>
           <p className="pl-12 -mt-8">
@@ -46,14 +46,13 @@ const About = () => {
             <p className="text-xl font-bold">MAINTANANCE</p>
           </div>
           <p className="pl-12 -mt-8">
-          I can design the site based on your needs and suggestions. I can also
-          design the site from scratch and consult you during the job.
-        </p>
+            I can design the site based on your needs and suggestions. I can
+            also design the site from scratch and consult you during the job.
+          </p>
         </div>
-        
       </div>
       <img className="mx-auto py-12" src={aboutmeEnd} alt="" />
-      <div className="h-[200px]"></div>
+      {/* <div className="h-[200px]"></div>
       <h1 className="text-5xl font-semibold">
         Hi! I am Jillur, a web developer
       </h1>
@@ -89,7 +88,7 @@ const About = () => {
             </ol>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
