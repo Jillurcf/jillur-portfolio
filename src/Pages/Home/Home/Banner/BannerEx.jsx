@@ -3,7 +3,7 @@ import img from "../../../../assets/IT.png";
 
 const BannerEx = () => {
   return (
-    <div className="bg-gray-900 h-[313px] flex justify-between overflow-hidden">
+    <div className="bg-gray-900 h-[313px] hidden lg:flex justify-between overflow-hidden">
       <div>
         <h1 className="flex items-center h-full px-36 justify-start text-start z-50 text-gray-400">
           Information Technology (IT) refers to the use of computers, software,

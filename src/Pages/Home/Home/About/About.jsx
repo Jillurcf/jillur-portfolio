@@ -7,7 +7,7 @@ const About = () => {
   const { scrollYProgress } = useScroll();
   return (
     <div className="bg-gray-300 py-24 px-8">
-      <div className="border border-x-8 border-y-8 border-black w-3/12 mx-auto">
+      <div className="border border-x-8 border-y-8 border-black lg:w-3/12 mx-auto">
         <h1 className=" text-center p-6 text-xl text-black font-bold">
           ABOUT ME
         </h1>
@@ -27,7 +27,7 @@ const About = () => {
         <img className="mx-auto py-12" src={aboutmeEnd} alt="" />
       </div>
 
-      <div className="flex w-3/5 mx-auto justify-between">
+      <div className="lg:flex w-3/5 mx-auto justify-between">
         <div>
           <div className="flex">
             <img src={development} alt="" />

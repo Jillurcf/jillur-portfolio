@@ -12,16 +12,16 @@ import photoshop from "../../../../assets/skills/photoshop.png";
 import illustrator from "../../../../assets/skills/illustrator.png";
 const Skills = () => {
   return (
-    <div className="bg-gray-300">
-      <div className="border border-x-8 border-y-8 border-black w-3/12 mx-auto">
+    <div className="bg-gray-300 px-8">
+      <div className="border border-x-8 border-y-8 border-black lg:w-3/12 mx-auto">
         <h1 className=" text-center p-6 text-xl text-black font-bold">
           SKILLS
         </h1>
       </div>
       <div className="mx-auto w-1/2 py-12">
-        <div>
+        <div className="lg:text-start text-center">
           <h1 className="font-bold text-2xl py-4">USING NOW</h1>
-          <div className="grid grid-cols-4 gap-12 text-center">
+          <div className="grid lg:grid-cols-4 grid-cols-1 gap-12 text-center">
             <div className="">
               <img className="mx-auto py-2" src={html} alt="" />
               <p className="">HTML</p>
@@ -62,16 +62,16 @@ const Skills = () => {
         </div>
         <div className="py-12">
           <h1 className="font-bold text-2xl">LEARNING:</h1>
-          <div className="grid grid-cols-4 gap-12 text-center">
+          <div className="grid lg:grid-cols-4 grid-cols-1 gap-12 text-center">
             <div className="">
               <img className="mx-auto py-2" src={next} alt="" />
               <p className="">Next Js</p>
             </div>
           </div>
         </div>
-        <div className="py-4">
+        <div className="py-4 lg:text-start text-center">
           <h1 className="font-bold text-2xl">OTHER SKILLS:</h1>
-          <div className="grid grid-cols-4 gap-12 text-center">
+          <div className="grid lg:grid-cols-4 grid-cols-1 gap-12 text-center">
             <div className="">
               <img className="mx-auto py-2" src={photoshop} alt="" />
               <p className="">Photoshop</p>

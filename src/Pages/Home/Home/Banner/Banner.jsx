@@ -47,7 +47,7 @@ const Banner = () => {
 
         <div className="">
           <img
-            className="absolute z-40 md:w-[200px] w-[200px] top-[25%] left-[40%]"
+            className="absolute z-40 md:w-[200px] w-[150px] top-[25%] left-[40%]"
             src={img}
             alt=""
           />
