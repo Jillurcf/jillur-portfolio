@@ -12,7 +12,7 @@ const About = () => {
           ABOUT ME
         </h1>
       </div>
-      <div className="w-3/5 mx-auto py-8">
+      <div className="md:w-3/5 mx-auto py-8">
         <p>
           I have a solid 2+ years of web development Background. Strong
           knowledge of developing frontend base and full stack or CMS, CRM and
@@ -27,7 +27,7 @@ const About = () => {
         <img className="mx-auto py-12" src={aboutmeEnd} alt="" />
       </div>
 
-      <div className="lg:flex w-3/5 mx-auto justify-between">
+      <div className="lg:flex md:w-3/5 mx-auto justify-between">
         <div>
           <div className="flex">
             <img src={development} alt="" />

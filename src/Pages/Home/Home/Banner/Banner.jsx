@@ -43,7 +43,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex-1 relative">
-        <img className="" src={blackBackground} alt="" />
+        <img className="image-full" src={blackBackground} alt="" />
 
         <div className="">
           <img
@@ -51,18 +51,18 @@ const Banner = () => {
             src={img}
             alt=""
           />
-          <div className="hidden lg:block absolute rotate-45 rounded-xl top-[32%] left-[25%]  w-[420px] h-[250px] bg-gray-700"></div>
+          <div className="hidden lg:block absolute rotate-45 rounded-xl top-[32%] left-[25%]  w-[350px] h-[220px] bg-gray-700"></div>
           <div
             style={{
               backgroundImage: "url(https://i.ibb.co/F3WmkF1/java-Script.png)",
             }}
-            className=" hidden lg:block absolute rotate-45 rounded-xl top-[27%] left-[25%]  w-[420px] h-[250px] bg-gray-600"
+            className=" hidden lg:block absolute rotate-45 rounded-xl top-[27%] left-[25%]  lg:w-[350px] h-[220px] bg-gray-600"
           ></div>
           <div
             style={{
               backgroundImage: "url(https://i.ibb.co/34Fm6sB/reactphoto.jpg)",
             }}
-            className="hidden lg:block absolute rotate-45 rounded-xl top-[22%] left-[25%]  w-[420px] h-[250px] bg-gray-800"
+            className="hidden lg:block absolute rotate-45 rounded-xl top-[22%] left-[25%]  w-[350px] h-[220px] bg-gray-800"
           ></div>
         </div>
       </div>
