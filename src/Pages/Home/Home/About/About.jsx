@@ -14,15 +14,7 @@ const About = () => {
       </div>
       <div className="md:w-3/5 mx-auto py-8">
         <p>
-          I have a solid 2+ years of web development Background. Strong
-          knowledge of developing frontend base and full stack or CMS, CRM and
-          Procurement project such as Tourism Management Project, Restaurant
-          Management Project, Tech Shop Management Project, Contest Management
-          Project and as well as Hotel Management Project. I am experienced in
-          performing as a team player and experienced in closely work with
-          design team. Seeking a challenging role where I can continually grow
-          as a web developer and contribute to the projects in a competitive and
-          collaborative environment.
+        Results-oriented web developer with a proven track record of over 2+ years in the industry. Specialized in both frontend and full-stack development, with a robust skill set encompassing CMS, CRM, and Procurement projects. Demonstrated expertise in successfully delivering solutions for diverse sectors, including Tourism, Restaurant, Tech Shop, Contest, and Hotel Management. Known for collaborative teamwork and close collaboration with design teams to ensure seamless project integration. Eager to embrace a challenging role that not only allows continuous personal and professional growth but also offers the opportunity to contribute to innovative projects in a dynamic and collaborative environment.
         </p>
         <img className="mx-auto py-12" src={aboutmeEnd} alt="" />
       </div>
